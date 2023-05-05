@@ -4,4 +4,4 @@ dash_bootstrap_components
 plotly
 altair
 openai
-
+gunicorn
