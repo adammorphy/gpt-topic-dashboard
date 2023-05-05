@@ -382,7 +382,9 @@ def set_key(n_clicks, value):
               State('upload-data', 'last_modified'))
 def update_output(api, list_of_contents, list_of_names, list_of_dates):
     
-    ai.api_key = api
+    if api == "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":
+        ai.api_key = os.getenv('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')
+
 
     if list_of_contents is not None:
         output_data = parse_contents(list_of_contents, list_of_names, list_of_dates)
