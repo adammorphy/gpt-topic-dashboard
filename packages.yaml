@@ -1,9 +1,0 @@
-name: 'packages'
-pip:
-  - pandas
-  - dash
-  - dash_bootstrap_components
-  - plotly.express
-  - plotly.io
-  - altair
-  - openai
