@@ -81,7 +81,7 @@ def parse_contents(contents, filename, date):
     df = df.dropna()
 
     # Take a sample
-    sample = df.head(35)
+    sample = df.head(1)
 
     # Run GPT topic
     sample['GPT-text-davinci-003'] = sample['understanding_comments'].apply(lambda x: \
