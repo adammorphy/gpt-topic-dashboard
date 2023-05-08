@@ -382,10 +382,10 @@ def set_key(n_clicks, value):
               State('upload-data', 'last_modified'))
 def update_output(api, list_of_contents, list_of_names, list_of_dates):
     
-    if api == "OPENAI_API_KEY":
-        # ai.api_key = os.getenv('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')
-        os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
-
+    if api == 'OPENAI_API_KEY':
+        ai.api_key = os.getenv('OPENAI_API_KEY')
+        #os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
+        
 
 
     if list_of_contents is not None:
