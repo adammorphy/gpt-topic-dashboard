@@ -6,4 +6,3 @@ plotly.express
 plotly
 altair
 openai
-tiktoken
