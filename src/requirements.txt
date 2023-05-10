@@ -3,7 +3,7 @@ numpy
 dash
 dash_bootstrap_components
 plotly.express
-plotly.io
+plotly
 altair
 openai
 tiktoken
