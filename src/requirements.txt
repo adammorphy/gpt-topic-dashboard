@@ -1,7 +1,9 @@
 pandas
+numpy
 dash
 dash_bootstrap_components
-plotly
+plotly.express
+plotly.io
 altair
 openai
-gunicorn
+tiktoken
