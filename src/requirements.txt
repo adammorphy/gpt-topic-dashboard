@@ -6,3 +6,4 @@ plotly
 altair
 openai
 gunicorn
+tiktoken
